@@ -1,1 +1,1 @@
-Hello My Name is Jack Preston and this is my Website!
+Hello, My Name is Jack Preston 
