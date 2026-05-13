@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resume | John Smith</title>
+  <title>Resume | Jack Preston</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
@@ -11,7 +11,7 @@
 
   <nav class="bg-white shadow-md sticky top-0 z-50">
     <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
-      <div class="text-2xl font-bold text-[#2D5A27]">John Smith</div>
+      <div class="text-2xl font-bold text-[#2D5A27]">Jack Preston</div>
       <div class="space-x-8 text-lg font-medium">
         <a href="index.html" class="nav-link">Home</a>
         <a href="about.html" class="nav-link">About</a>
@@ -25,26 +25,55 @@
   <section class="py-20">
     <div class="max-w-4xl mx-auto px-6">
       <h1 class="text-5xl font-bold mb-12">Resume</h1>
-      
-      <div class="space-y-12">
+
+      <div class="space-y-14">
+        <!-- Education -->
         <div>
-          <h2 class="text-2xl font-semibold mb-4">Education</h2>
-          <p class="font-medium">[Your School Name] — Expected Graduation: May 20XX</p>
-          <p>GPA: 3.8/4.0 | National Honor Society</p>
+          <h2 class="text-2xl font-semibold mb-6 border-b pb-3">Education</h2>
+          <div class="bg-white p-8 rounded-2xl shadow-sm">
+            <p class="font-semibold text-xl">[Your School Name]</p>
+            <p class="text-gray-600">Expected Graduation: May 20XX</p>
+            <p>GPA: 3.8/4.0 | Honor Roll (4 years) | National Honor Society</p>
+          </div>
         </div>
 
+        <!-- Coursework -->
         <div>
-          <h2 class="text-2xl font-semibold mb-4">Leadership & Activities</h2>
-          <ul class="space-y-6">
-            <li><strong>Boy Scouts of America</strong> — Eagle Scout</li>
-            <li><strong>Varsity Golf Team</strong> — Team Captain</li>
-            <li><strong>Church Ministry</strong> — Head Acolyte</li>
-          </ul>
+          <h2 class="text-2xl font-semibold mb-6">Relevant Coursework</h2>
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-white p-6 rounded-2xl">
+              <strong>AP United States History</strong><br>
+              Advanced research, primary source analysis, and historical argumentation.
+            </div>
+            <div class="bg-white p-6 rounded-2xl">
+              <strong>Statistics & Data Analysis</strong><br>
+              Data interpretation and statistical analysis skills.
+            </div>
+          </div>
+        </div>
+
+        <!-- Leadership -->
+        <div>
+          <h2 class="text-2xl font-semibold mb-6">Leadership & Extracurricular Activities</h2>
+          <div class="space-y-8">
+            <div class="bg-white p-8 rounded-2xl">
+              <p class="font-semibold text-lg">Boy Scouts of America — Eagle Scout</p>
+              <p>Led a 100+ hour community service project • Mentored a troop of 30+ scouts in outdoor skills and leadership development.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl">
+              <p class="font-semibold text-lg">Varsity Golf Team — Team Captain</p>
+              <p>Represented school in regional tournaments • Mentored underclassmen on technique and course strategy.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl">
+              <p class="font-semibold text-lg">Church Ministry — Head Acolyte</p>
+              <p>Managed and trained a team of 10 acolytes • Ensured smooth execution of weekly services.</p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="mt-12">
-        <a href="#" class="bg-[#2D5A27] text-white px-8 py-4 rounded-xl inline-flex items-center gap-3">
+      <div class="mt-16 text-center">
+        <a href="#" class="bg-[#2D5A27] text-white px-10 py-5 rounded-2xl text-lg inline-flex items-center gap-3 hover:bg-green-800">
           <i class="fas fa-download"></i> Download Full Resume (PDF)
         </a>
       </div>
